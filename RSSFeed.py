@@ -30,7 +30,7 @@ def rss():
 
     feed = Feed(
         title = "Sample RSS Feed",
-        link = "http://localhost:5000/rss",
+        link = "https://herokuhero-sharan.herokuapp.com/rss",
         description = "This is an example of how to use rfeed to generate an RSS 2.0 feed",
         language = "en-US",
         lastBuildDate = datetime.datetime.now(),
