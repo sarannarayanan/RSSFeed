@@ -1,1 +1,1 @@
-web: python   RSSFeed.py --log-level=DEBUG
+web: gunicorn RSSFeed:app --log-level=DEBUG
