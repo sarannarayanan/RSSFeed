@@ -73,7 +73,7 @@ request==2019.4.13
 requests==2.20.0
 requests-oauthlib==1.3.0
 rfeed==1.1.1
-salesforcepy==1.1.2
+
 Send2Trash==1.5.0
 simple-salesforce==0.75.3
 six==1.14.0
