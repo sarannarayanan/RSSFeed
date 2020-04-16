@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:$PORT main:TIP_SERVICE --log-level=DEBUG
+web: gunicorn -b 0.0.0.0:$PORT main:RSSFEed.py --log-level=DEBUG
