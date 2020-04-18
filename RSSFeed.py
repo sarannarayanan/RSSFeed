@@ -18,7 +18,7 @@ def rss():
         description = "This is the description of the first article",
         author = "Saranyan Narayanan",
         guid = Guid("https://www.amazon.com"),
-        pubDate = datetime.now()
+        pubDate = datetime.datetime(2014, 12, 30, 14, 15)
     
     )
 
