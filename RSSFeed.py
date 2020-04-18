@@ -14,11 +14,13 @@ from urllib.parse import parse_qs
 def rss():
     item1 = Item(
         title = "First article",
-        link = "http://www.example.com/articles/1", 
+        link = "https://www.amazon.com", 
         description = "This is the description of the first article",
-        author = "Santiago L. Valdarrama",
-        guid = Guid("http://www.example.com/articles/1"),
-        pubDate = datetime.datetime(2014, 12, 29, 10, 00))
+        author = "Saranyan Narayanan",
+        guid = Guid("https://www.amazon.com"),
+        pubDate = datetime.now()
+    
+    )
 
     item2 = Item(
         title = "Second article",
