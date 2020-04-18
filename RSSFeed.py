@@ -18,7 +18,7 @@ def rss():
         description = "This is the description of the first article",
         author = "Saranyan Narayanan",
         guid = Guid("https://www.amazon.com"),
-        pubDate = datetime.datetime(2014, 12, 30, 14, 15)
+        pubDate = datetime.datetime(2020, 4, 16, 14, 15)
     
     )
 
@@ -28,7 +28,7 @@ def rss():
         description = "This is the description of the second article",
         author = "Santiago L. Valdarrama",
         guid = Guid("http://www.example.com/articles/2"),
-        pubDate = datetime.datetime(2014, 12, 30, 14, 15))
+        pubDate = datetime.datetime(2020, 4, 16, 14, 15))
 
     feed = Feed(
         title = "Sample RSS Feed",
