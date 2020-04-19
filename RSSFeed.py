@@ -15,7 +15,7 @@ def rss():
     item1 = Item(
         title = "Salesforce Best practice",
         link = "https://www.Salesforce.com", 
-        description = "  :) Triggers are to be bulkified, else they will trigger failuers  ",
+        description = " Triggers are to be bulkified, else they will trigger failuers  ",
         author = "Saranyan Narayanan",
         guid = Guid("https://www.Salesforce.com"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15)
@@ -34,7 +34,7 @@ def rss():
     item3 = Item(
         title = "LWC Hub",
         link = "https://www.youtube.com/watch?v=mzwIwahqkYM", 
-        description = "How to install anypoint studio , get the linki  your alexa app",
+        description = "How to install anypoint studio , get the link in  your alexa app",
         author = "Saranyan Narayanan",
         guid = Guid("https://anypoint.mulesoft.com"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15))
@@ -62,17 +62,11 @@ def crmrss():
     
     )
 
-    item2 = Item(
-        title = "LWC Hub",
-        link = "https://www.lwchub.com/techtalk/lwc-common", 
-        description = "LWC Hub is a great resource for LWC",
-        author = "Saranyan Narayanan",
-        guid = Guid("https://www.lwchub.com/"),
-        pubDate = datetime.datetime(2020, 4, 16, 14, 15))
+
 
     feed = Feed(
         title = "Sample RSS Feed",
-        link = "https://herokuhero-sharan.herokuapp.com/rss",
+        link = "https://herokuhero-sharan.herokuapp.com/crmrss",
         description = "This is an example of how to use rfeed to generate an RSS 2.0 feed",
         language = "en-IN",
         lastBuildDate = datetime.datetime.now(),
