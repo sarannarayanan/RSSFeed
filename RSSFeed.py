@@ -15,7 +15,7 @@ def rss():
     item1 = Item(
         title = "Salesforce Best practice",
         link = "https://www.Salesforce.com", 
-        description = "Triggers are to be bulkified, wlse they will trigger failuers :) ",
+        description = "  :) Triggers are to be bulkified, else they will trigger failuers  ",
         author = "Saranyan Narayanan",
         guid = Guid("https://www.Salesforce.com"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15)
@@ -29,6 +29,15 @@ def rss():
         author = "Saranyan Narayanan",
         guid = Guid("https://www.lwchub.com/"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15))
+    
+    
+    item3 = Item(
+        title = "LWC Hub",
+        link = "https://anypoint.mulesoft.com", 
+        description = "https://www.youtube.com/watch?v=mzwIwahqkYM",
+        author = "Saranyan Narayanan",
+        guid = Guid("https://www.lwchub.com/"),
+        pubDate = datetime.datetime(2020, 4, 16, 14, 15))
 
     feed = Feed(
         title = "Sample RSS Feed",
@@ -36,7 +45,7 @@ def rss():
         description = "This is an example of how to use rfeed to generate an RSS 2.0 feed",
         language = "en-IN",
         lastBuildDate = datetime.datetime.now(),
-        items = [item1, item2])
+        items = [item1, item2, item3])
 
     return feed.rss()
 
