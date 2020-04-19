@@ -26,7 +26,7 @@ def rss():
         title = "Second article",
         link = "https://www.amazon.com", 
         description = "This is the description of the second article",
-        author = "Santiago L. Valdarrama",
+        author = "Saranyan Narayanan",
         guid = Guid("http://www.example.com/articles/2"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15))
 
@@ -34,7 +34,7 @@ def rss():
         title = "Sample RSS Feed",
         link = "https://herokuhero-sharan.herokuapp.com/rss",
         description = "This is an example of how to use rfeed to generate an RSS 2.0 feed",
-        language = "en-US",
+        language = "en-IN",
         lastBuildDate = datetime.datetime.now(),
         items = [item1, item2])
 
