@@ -27,7 +27,7 @@ def rss():
         link = "https://www.amazon.com", 
         description = "This is the description of the second article",
         author = "Saranyan Narayanan",
-        guid = Guid("http://www.example.com/articles/2"),
+        guid = Guid("https://www.example.com/articles/2"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15))
 
     feed = Feed(
