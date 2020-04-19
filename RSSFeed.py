@@ -24,7 +24,7 @@ def rss():
 
     item2 = Item(
         title = "Second article",
-        link = "http://www.example.com/articles/2", 
+        link = "https://www.amazon.com", 
         description = "This is the description of the second article",
         author = "Santiago L. Valdarrama",
         guid = Guid("http://www.example.com/articles/2"),
