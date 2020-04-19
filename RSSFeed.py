@@ -36,7 +36,7 @@ def rss():
         link = "https://anypoint.mulesoft.com", 
         description = "https://www.youtube.com/watch?v=mzwIwahqkYM",
         author = "Saranyan Narayanan",
-        guid = Guid("https://www.lwchub.com/"),
+        guid = Guid("https://anypoint.mulesoft.com"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15))
 
     feed = Feed(
