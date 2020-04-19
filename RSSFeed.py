@@ -14,8 +14,8 @@ from urllib.parse import parse_qs
 def rss():
     item1 = Item(
         title = "First article",
-        link = "https://www.amazon.com", 
-        description = "This is the description of the first article",
+        link = "https://www.Salesforce.com", 
+        description = "Triggers are to be bulkified, wlse they will trigger failuers :) ",
         author = "Saranyan Narayanan",
         guid = Guid("https://www.amazon.com"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15)
