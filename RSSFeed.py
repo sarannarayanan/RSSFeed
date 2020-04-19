@@ -33,8 +33,8 @@ def rss():
     
     item3 = Item(
         title = "LWC Hub",
-        link = "https://anypoint.mulesoft.com", 
-        description = "https://www.youtube.com/watch?v=mzwIwahqkYM",
+        link = "https://www.youtube.com/watch?v=mzwIwahqkYM", 
+        description = "How to install anypoint studio , get the linki  your alexa app",
         author = "Saranyan Narayanan",
         guid = Guid("https://anypoint.mulesoft.com"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15))
