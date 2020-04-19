@@ -13,21 +13,21 @@ from urllib.parse import parse_qs
 
 def rss():
     item1 = Item(
-        title = "First article",
+        title = "Salesforce Best practice",
         link = "https://www.Salesforce.com", 
         description = "Triggers are to be bulkified, wlse they will trigger failuers :) ",
         author = "Saranyan Narayanan",
-        guid = Guid("https://www.amazon.com"),
+        guid = Guid("https://www.Salesforce.com"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15)
     
     )
 
     item2 = Item(
-        title = "Second article",
-        link = "https://www.amazon.com", 
-        description = "This is the description of the second article",
+        title = "LWC Hub",
+        link = "https://www.lwchub.com/techtalk/lwc-common", 
+        description = "LWC Hub is a great resource for LWC",
         author = "Saranyan Narayanan",
-        guid = Guid("https://www.example.com/articles/2"),
+        guid = Guid("https://www.lwchub.com/"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15))
 
     feed = Feed(
