@@ -9,6 +9,10 @@ import webbrowser
 import urllib.parse as urlparse
 from urllib.parse import parse_qs
 
+@app.route('/')
+def hello():
+    return redirect("/rss", code=302)
+
 @app.route("/rss", methods=["GET"])
 
 def rss():
