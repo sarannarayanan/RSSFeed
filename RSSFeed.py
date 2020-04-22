@@ -30,11 +30,11 @@ def jsonfeed():
 def rss():
     item1 = Item(
         title = "Salesforce Best practice",
-        link = "https://www.Salesforce.com", 
-        description = " Triggers are to be bulkified, else they will trigger failuers  ",
+        link = "https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_config_for_flow_actions.htm", 
+        description = "Create Flow Local Actions Using Aura Components ",
         author = "Saranyan Narayanan",
-        guid = Guid("https://www.Salesforce.com"),
-        pubDate = datetime.datetime(2020, 4, 16, 14, 15)
+        guid = Guid("https://developer.salesforce.com"),
+        pubDate = datetime.datetime.now()
     
     )
 
