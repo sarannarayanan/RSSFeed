@@ -14,7 +14,7 @@ def hello():
     return redirect("/rss", code=302)
 
 @app.route('/json',methods=["GET"])
-def jsonret():
+def json():
     abcd = {
         "uid": "urn:uuid:1335c695-cfb8-4ebb-abbd-80da344efa6b",
         "updateDate": "2016-05-23T22:34:51.0Z",
