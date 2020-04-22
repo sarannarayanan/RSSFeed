@@ -31,7 +31,7 @@ def rss():
     item1 = Item(
         title = "Salesforce Best practice",
         link = "https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_config_for_flow_actions.htm", 
-        description = "Create Flow Local Actions Using Aura Components ",
+        description = "Create Flow Local Actions Using Aura Components. Check out the developer docs in alexa app ",
         author = "Saranyan Narayanan",
         guid = Guid("https://developer.salesforce.com"),
         pubDate = datetime.datetime.now()
@@ -48,7 +48,7 @@ def rss():
     
     
     item3 = Item(
-        title = "LWC Hub",
+        title = "Mulesoft Anypoint Studio",
         link = "https://www.youtube.com/watch?v=mzwIwahqkYM", 
         description = "How to install anypoint studio , get the link in  your alexa app",
         author = "Saranyan Narayanan",
@@ -69,9 +69,9 @@ def rss():
 
 def crmrss():
     item1 = Item(
-        title = "Salesforce Sales Cloud",
+        title = "Salesforce Service  Cloud",
         link = "https://www.Salesforce.com", 
-        description = "Salesforce Sales Cloud in Lightning",
+        description = "Salesforce Service Cloud in Lightning <speak > My service is call center </speak>",
         author = "Saranyan Narayanan",
         guid = Guid("https://www.Salesforce.com"),
         pubDate = datetime.datetime(2020, 4, 16, 14, 15)
