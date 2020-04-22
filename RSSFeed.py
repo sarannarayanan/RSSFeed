@@ -13,7 +13,7 @@ from urllib.parse import parse_qs
 def hello():
     return redirect("/rss", code=302)
 
-@app.route('/json')
+@app.route('/json',methods=["GET"])
 def jsonret():
     abcd = {
         "uid": "urn:uuid:1335c695-cfb8-4ebb-abbd-80da344efa6b",
