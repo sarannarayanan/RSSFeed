@@ -34,7 +34,7 @@ def rss():
         description = "Create Flow Local Actions Using Aura Components. Check out the developer docs in alexa app ",
         author = "Saranyan Narayanan",
         guid = Guid("https://developer.salesforce.com"),
-        pubDate = datetime.datetime.now()
+        pubDate = datetime.datetime(2015, 4, 16, 14, 15)
     
     )
 
@@ -44,7 +44,7 @@ def rss():
         description = "LWC Hub is a great resource for LWC",
         author = "Saranyan Narayanan",
         guid = Guid("https://www.lwchub.com/"),
-        pubDate = datetime.datetime(2020, 4, 16, 14, 15))
+        pubDate = datetime.datetime(2015, 4, 16, 14, 15))
     
     
     item3 = Item(
@@ -53,7 +53,7 @@ def rss():
         description = "How to install anypoint studio , get the link in  your alexa app",
         author = "Saranyan Narayanan",
         guid = Guid("https://anypoint.mulesoft.com"),
-        pubDate = datetime.datetime(2020, 4, 16, 14, 15))
+        pubDate = datetime.datetime(2012, 4, 16, 14, 15))
 
     feed = Feed(
         title = "Sample RSS Feed",
