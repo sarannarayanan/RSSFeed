@@ -31,7 +31,7 @@ def rss():
     item1 = Item(
         title = "Salesforce Best practice",
         link = "https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_config_for_flow_actions.htm", 
-        description = "Create Flow Local Actions Using Aura Components. Check out the developer docs in alexa app ",
+        description = "Create Flow Local Actions Using Aura Components. <speak > Check out the developer docs in alexa app </speak> ",
         author = "Saranyan Narayanan",
         guid = Guid("https://developer.salesforce.com"),
         pubDate = datetime.datetime(2015, 4, 16, 14, 15)
